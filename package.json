@@ -1,5 +1,5 @@
 {
-  "name": "halversondm-useless-functions",
+  "name": "useless-functions",
   "version": "1.0.0",
   "description": "A series of useless functions for understanding ES6 import export",
   "main": "lib/index.js",
