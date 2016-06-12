@@ -2,6 +2,10 @@
   "name": "useless-functions",
   "version": "1.0.0",
   "description": "A series of useless functions for understanding ES6 import export",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halversondm/useless-functions"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
