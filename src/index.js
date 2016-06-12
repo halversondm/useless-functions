@@ -3,10 +3,7 @@
  */
 "use strict";
 
-export function name() {
-  return "Dan Halverson";
-}
-
-export function address() {
-  return "123 Main Street, Anytown, USA";
-}
+module.exports = {
+  name: require("./name"),
+  address: require("./address")
+};
