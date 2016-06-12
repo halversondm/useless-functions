@@ -3,7 +3,10 @@
  */
 "use strict";
 
-module.exports = {
-  name: require("./name"),
-  address: require("./address")
-};
+import {name} from "./name";
+import {address} from "./address";
+
+export default {
+  name,
+  address
+}
