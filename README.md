@@ -1,0 +1,1 @@
+Useless functions for testing ES6 export import.
