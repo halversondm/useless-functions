@@ -1,6 +1,6 @@
 "use strict";
 
-export function name() {
+export default function name() {
   return "Dan Halverson";
 }
 

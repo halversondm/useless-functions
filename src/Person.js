@@ -2,12 +2,14 @@
  * Created by Daniel on 6/12/2016.
  */
 
-import {name} from "./name";
-import {address} from "./address";
+import name from "./name";
+import address from "./address";
 
-export class Person {
+class Person {
 
   details() {
     return name() + " " + address();
   }
 }
+
+export default Person;

@@ -3,6 +3,6 @@
  */
 "use strict";
 
-export function address() {
+export default function address() {
   return "123 Main Street, Anytown, USA";
 }
