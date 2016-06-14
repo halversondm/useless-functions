@@ -3,6 +3,22 @@
  */
 "use strict";
 
-export default function address() {
-  return "123 Main Street, Anytown, USA";
+function valueCheck(aString) {
+  if (aString !== null && aString !== "") {
+    return aString + "\n";
+  }
+
+  return null;
 }
+
+export default function address(street, city, state, zip, countryCode) {
+  let addressLine = valueCheck(street);
+
+  addressLine += valueCheck(city);
+  addressLine += valueCheck(state);
+  addressLine += valueCheck(zip);
+  addressLine += valueCheck(countryCode);
+
+  return addressLine;
+}
+

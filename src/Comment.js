@@ -2,7 +2,7 @@
  * Created by Daniel on 6/13/2016.
  */
 
-import React from 'react';
+import React from "react";
 
 var Comment = React.createClass({
 

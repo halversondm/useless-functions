@@ -3,10 +3,10 @@
  */
 "use strict";
 
-import name from './name';
-import address from './address';
-import Person from './Person';
-import Comment from './Comment';
+import name from "./name";
+import address from "./address";
+import Person from "./Person";
+import Comment from "./Comment";
 
 export {
   name,
