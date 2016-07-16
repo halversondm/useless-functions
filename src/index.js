@@ -7,10 +7,12 @@ import name from "./name";
 import address from "./address";
 import Person from "./Person";
 import Comment from "./Comment";
+import phone from "./phone";
 
 export {
   name,
   address,
   Person,
-  Comment
+  Comment,
+  phone
 };
