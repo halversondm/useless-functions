@@ -3,6 +3,8 @@
  */
 "use strict";
 
-export default function phone(countryCode, areaCode, phoneNumber) {
+function phone(countryCode, areaCode, phoneNumber) {
   return "+" + countryCode + "-" + areaCode + "-" + phoneNumber;
 }
+
+export {phone};

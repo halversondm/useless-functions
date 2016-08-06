@@ -11,7 +11,7 @@ function valueCheck(aString) {
   return null;
 }
 
-export default function address(street, city, state, zip, countryCode) {
+function address(street, city, state, zip, countryCode) {
   let addressLine = valueCheck(street);
 
   addressLine += valueCheck(city);
@@ -21,4 +21,6 @@ export default function address(street, city, state, zip, countryCode) {
 
   return addressLine;
 }
+
+export {address};
 

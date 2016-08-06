@@ -2,8 +2,8 @@
  * Created by Daniel on 6/12/2016.
  */
 
-import name from "./name";
-import address from "./address";
+import {name} from "./name";
+import {address} from "./address";
 
 class Person {
 
@@ -25,4 +25,4 @@ class Person {
   }
 }
 
-export default Person;
+export {Person};

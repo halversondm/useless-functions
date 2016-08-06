@@ -3,16 +3,8 @@
  */
 "use strict";
 
-import name from "./name";
-import address from "./address";
-import Person from "./Person";
-import Comment from "./Comment";
-import phone from "./phone";
-
-export {
-  name,
-  address,
-  Person,
-  Comment,
-  phone
-};
+export {name} from "./name";
+export {address} from "./address";
+export {Person} from "./Person";
+export {Comment} from "./Comment";
+export {phone} from "./phone";
